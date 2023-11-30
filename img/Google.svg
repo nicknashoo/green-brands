@@ -1,0 +1,26 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<mask id="google0" mask-type="alpha" maskUnits="userSpaceOnUse" x="30" y="27" width="16" height="16">
+		<path d="M45.8769 31.1129C45.8769 35.9046 44.164 39.9555 41.1836 42.6986H36.1083V38.7634C37.7692 37.6639 38.9035 35.9335 39.2565 33.9775H30.7495V27.9126H45.6049C45.7901 28.9659 45.8769 30.0423 45.8769 31.1129Z" fill="white" />
+	</mask>
+	<g mask="url(#google0)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M24.0039 21.167H52.622V49.4437H24.0039V21.167Z" fill="#F5F5F5" />
+	</g>
+	<mask id="google1" mask-type="alpha" maskUnits="userSpaceOnUse" x="16" y="33" width="26" height="14">
+		<path d="M30.75 46.5001C24.7951 46.5001 19.3494 43.1436 16.6758 37.8253V33.7686H21.9131C23.1631 37.4955 26.6469 40.2675 30.7558 40.2675C32.8796 40.2675 34.7026 39.7235 36.1146 38.7628L41.1899 42.698C38.5799 45.1055 34.9977 46.5001 30.75 46.5001Z" fill="#C4C4C4" />
+	</mask>
+	<g mask="url(#google1)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M9.93018 27.0229H47.935V53.2452H9.93018V27.0229Z" fill="#F5F5F5" />
+	</g>
+	<mask id="google2" mask-type="alpha" maskUnits="userSpaceOnUse" x="15" y="23" width="7" height="15">
+		<path d="M21.9069 33.7685L16.6754 37.8253C14.4415 33.375 14.4415 28.1319 16.6754 23.6816H21.9069V27.7384C21.2472 29.6945 21.2472 31.8125 21.9069 33.7685Z" fill="white" />
+	</mask>
+	<g mask="url(#google2)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.25439 16.936H28.652V44.5704H8.25439V16.936Z" fill="#F5F5F5" />
+	</g>
+	<mask id="google3" mask-type="alpha" maskUnits="userSpaceOnUse" x="16" y="15" width="26" height="13">
+		<path d="M30.75 21.2338C26.6411 21.2338 23.1515 24.0058 21.9073 27.7385L16.6758 23.6817C19.3494 18.3576 24.7951 15.0011 30.75 15.0011C34.6621 14.9548 38.441 16.4247 41.2883 19.0983L36.7917 23.5949C35.1655 22.044 32.9954 21.199 30.75 21.2338Z" fill="white" />
+	</mask>
+	<g mask="url(#google3)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M9.93018 8.25488H48.0334V34.4841H9.93018V8.25488Z" fill="#F5F5F5" />
+	</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<mask id="fb" mask-type="alpha" maskUnits="userSpaceOnUse" x="24" y="15" width="14" height="30">
+		<path d="M32.8661 45H26.9538V29.9988H24V24.8291H26.9538V21.7253C26.9538 17.5078 28.6217 15 33.3603 15H37.3054V20.1703H34.8395C32.9948 20.1703 32.8728 20.8927 32.8728 22.2411L32.8661 24.8285H37.3333L36.8106 29.9982H32.8661V45Z" fill="white" />
+	</mask>
+	<g mask="url(#fb)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M15.9546 8.0459H44.0455V52.5004H15.9546V8.0459Z" fill="#F5F5F5" />
+	</g>
+</svg>

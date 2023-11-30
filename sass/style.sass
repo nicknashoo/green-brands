@@ -1,0 +1,1305 @@
+$color-main-green: #224720
+$color-light-green: #D7F3BE
+$color-normal-green: #71AC3D
+$color-white: #f5f5f5
+
+@font-face
+    font-family: Helvetica
+    src: url('../fonts/Helvetica.ttf')
+    font-style: normal
+
+@font-face
+    font-family: AGLettericaCondensed
+    src: url('../fonts/AGLettericaCondensed.ttf')
+    font-style: normal
+
+body
+    font-family: "Helvetica", sans-serif
+    color: #F5F5F5
+    background-color: $color-main-green
+
+a
+    text-decoration: none
+    color: #f5f5f5
+
+.header-wrapper
+    padding: 14px 0
+.header-wrapper__nav
+    position: relative
+    padding: 0 60px
+    display: flex
+    flex-direction: row
+    height: 76.14px
+
+.container
+    max-width: 1400px
+    margin: 0 auto
+    padding: 0 60px
+
+.navbar
+    border-bottom: 1px solid rgba(196, 196, 196, 0.3)
+    height: 100px
+.navbar-expand-lg
+    padding: 15px 0
+.container-xl
+    padding: 0
+    max-width: 1280px
+.navbar-nav
+    display: flex
+    align-items: center
+.nav-link
+    font-size: 16px
+    line-height: 24px
+    font-family: Helvetica, sans-serif
+    color: #F5F5F5
+    text-transform: uppercase
+    margin-right: 30px
+    &:hover
+        color: $color-normal-green
+        svg
+            color: $color-normal-green
+            transform: rotate(180deg)
+            transition: all 0.6s ease
+    a
+        padding: 0
+.last
+    margin-right: 0
+.background_div
+    position: absolute
+    display: flex
+    right: 8px
+    top: -15px
+    height: 100%
+    width: 100%
+    z-index: -10
+.dropdown:hover
+    .dropdown-menu
+        position: absolute
+        display: block
+        min-width: 182px
+        padding: 22px 25px
+        background-color: $color-normal-green
+        top: 30px
+        border-radius: 0
+        right: -30%
+    .dropdown_last
+        right: -80%
+        
+
+.dropdown-item
+    font-family: Helvetica, sans-serif
+    font-size: 16px
+    padding: 0
+    color: #F5F5F5
+    margin-bottom: 8px
+    line-height: 24px
+    &:hover
+        background-color: $color-normal-green
+        color:  #F5F5F5
+    &:last-child
+        margin-bottom: 0
+.navbar-brand
+    padding: 0
+.navbar__item
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin-right: 30px
+    svg
+        width: 14px
+        height: 8px
+        margin-left: 8px
+        opacity: 0.3
+
+
+.navbar-toggler
+    border: none
+    padding: 0
+    &:focus
+        box-shadow: none
+
+
+.logo
+    margin: auto
+
+.nav-menu
+    display: flex
+    justify-content: space-between
+.nav-menu__list__btn
+    text-decoration: none
+    color: #F5F5F5
+    padding: 18px 30px
+    border: 1px solid $color-normal-green
+    color: #F5F5F5
+    background-color: $color-main-green
+    &:hover
+        background-color: $color-normal-green
+        color: #F5F5F5
+
+.menu-full
+    position: absolute
+    left: 0px
+    width: 100%
+    top: 85px
+    transition: all 0.5s ease 0s
+    z-index: 10
+    padding: 0px 20px 40px
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 52px 20px 40px 20px
+    background-color: $color-main-green
+    list-style: none
+    &__item
+        padding: 0
+        text-transform: uppercase
+        font-family: AGLettericaCondensed, sans-serif
+        font-size: 40px
+        padding: 20px 0
+        position: relative
+        width: 100%
+        text-align: center
+        border-bottom: 1px solid rgba(245, 245, 245, 0.1)
+        &:last-child
+            border-bottom: none
+        a
+            color: $color-normal-green
+        &__btn
+            font-family: AGLettericaCondensed, sans-serif
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 60px
+            width: 100%
+            border: 1px solid $color-normal-green
+            background-color: $color-main-green
+            &:hover
+                background-color: $color-normal-green
+            a
+                color: #F5F5F5
+                font-size: 18px
+                line-height: 24px
+                padding: 18px
+.item-button
+    padding: 52px 0 0
+.dropdown__last
+    margin-bottom: 40px
+    border-bottom: none
+
+
+.main-section__container
+    margin: 0 auto
+    padding: 0 60px 0 100px
+    position: relative
+    &__img
+        width: 100%
+        height: 520px
+        img
+            width: 100%
+            height: 100%
+            display: block
+
+.container-main
+    max-width: 1400px
+    padding: 60px 0
+    
+.main-section__wrapper
+    position: absolute
+    left: 60px
+    top: 50%
+    max-width: 567px
+    transform: translateY(-50%)
+    padding: 60px 80px
+    background: rgb(24, 50, 22)
+    &__list
+        margin-bottom: 45px
+        padding: 0 0 0 17px
+        &__item
+            line-height: 22px
+            min-width: 390px
+
+.main-section__wrapper__mobile
+    margin: 0 auto
+    
+
+.title
+    margin: 0
+    margin-bottom: 40px
+    font-weight: bold
+    font-size: 40px
+    line-height: 40px
+    text-transform: uppercase
+    color: rgb(113, 172, 61)
+    font-family: AGLettericaCondensed, sans-serif
+
+.main-section__wrapper__btn
+    display: block
+    padding: 18px 0
+    text-align: center
+    width: 100%
+    outline: none
+    font-family: AGLettericaCondensed, sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 24px
+    text-transform: uppercase
+    color: rgb(245, 245, 245)
+    background-color: $color-normal-green
+    border: none
+.container-second
+    max-width: 1400px
+    padding: 60px 60px 0 60px  
+
+.second-section
+    background-color: #F5F5F5
+    position: relative
+    &__card
+        border: none
+        z-index: 0
+        margin-bottom: 24px
+        &__img
+            min-height: 380px
+        &__img-overlay
+            padding: 30px
+
+h2
+    margin-bottom: 0.5em
+
+.overlay
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.3)
+
+.normal-green
+    background-color: $color-normal-green
+    &__title
+        color: $color-normal-green
+    &__p
+        color: $color-normal-green
+
+.main-green
+    background-color: $color-main-green
+    &__title
+        color: $color-main-green
+    &__p
+        color: $color-main-green
+
+.light-green
+    background-color: $color-light-green
+    &__title
+        color: $color-light-green
+    &__p
+        color: $color-light-green
+
+.normal-green-btn
+    a
+        text-decoration: none
+        color: #F5F5F5
+    &:hover
+        background-color: $color-main-green
+        color: #F5F5F5
+.section-card__link
+    &:hover
+        color: $color-white
+.section-card-1__wrapper
+    display: flex
+    flex-direction: column
+    -webkit-box-pack: justify
+    justify-content: space-between
+    height: 100%
+    position: relative
+    &__title
+        font-size: 28px  
+        line-height: 32px
+        font-family: AGLettericaCondensed, sans-serif   
+        text-transform: uppercase
+        margin-bottom: 14px
+    &__p
+        line-height: 18px
+        margin: 0
+
+
+.section-card-2__wrapper
+    display: flex
+    flex-direction: column
+    -webkit-box-pack: justify
+    justify-content: space-between
+    height: 100%
+    position: relative
+    max-width: 600px
+    &__title
+        font-size: 40px  
+        line-height: 40px
+        font-family: AGLettericaCondensed, sans-serif   
+        text-transform: uppercase 
+        margin-bottom: 14px
+    &__p
+        line-height: 18px
+        margin: 0
+
+.second-section__btn
+    cursor: pointer
+    font-family: AGLettericaCondensed, sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    text-align: center
+    padding: 16px 0
+    color: rgb(255, 255, 255)
+    background-color: $color-normal-green
+    outline: none
+    border: none
+    height: auto
+    text-transform: uppercase
+    max-width: 630px
+    transition: all 0.3s ease 0s
+    display: block
+    &:hover
+        color: #F5F5F5
+
+.second-section__btn-wrapper
+    max-width: 630px
+    margin: 0 auto
+    padding: 40px 0 90px
+
+.footer
+    background-color: $color-main-green
+    
+.footer__container
+    margin: 0 auto 214px
+    background-color: $color-main-green
+
+.footer__container__header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 30px 0
+    margin-bottom: 30px
+    border-bottom: 1px solid rgba(245, 245, 245, 0.3)
+
+.mailing__container
+    max-width: 414px
+    height: 60px
+    display: flex
+    justify-content: space-between
+.mailing
+    border: none
+    padding-left: 20px
+    display: flex
+    align-items: center
+    margin: 0
+    background: rgba(245, 245, 245, 0.1)
+    min-width: 354px
+    color: #f5f5f5
+    &:active
+        outline: none
+    &:focus
+        outline: none
+        color: #f5f5f5
+    &::placeholder
+        font-family: Helvetica
+        font-size: 16px
+        line-height: 19.2px
+        color: rgba(245, 245, 245, 0.3)
+    &__arrow
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 60px
+        width: 60px
+        background-color: $color-normal-green
+        z-index: 10
+        &:hover
+            color: #f5f5f5
+            
+        i
+            font-size: 24px
+
+
+.footer__container__info
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    a
+        text-decoration: none
+        color: #f5f5f5
+    &__left-wrapper
+        display: flex
+        
+        &__column
+            margin-right: 100px
+    &__title
+        font-family: AGLettericaCondensed, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 24px
+        text-transform: uppercase
+        margin-bottom: 15px
+        color: $color-normal-green
+    &__item
+        text-decoration: none
+        font-family: Helvetica
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 120%
+        color: rgb(245, 245, 245)
+        display: block
+        margin-bottom: 15px
+
+.text-right
+    text-align: right
+
+.footer__bottom
+    background: $color-normal-green
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        padding: 20px 60px
+        max-width: 1400px
+        margin: 0 auto
+        width: 100%
+
+
+
+.container__about-league
+    background-color: #f5f5f5
+    &__wrapper
+        max-width: 1400px
+        margin: 0 auto
+        padding: 60px 0 120px 0
+        position: relative
+.about-league
+    max-width: 1105px
+    background-color: rgb(255, 255, 255)
+    margin: 0 auto
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px
+    padding: 90px 233px 60px 233px
+    h2
+        font-size: 32px
+        line-height: 32px
+        color: $color-normal-green
+        padding: 10px 0 0 0
+        margin-bottom: 30px
+        font-family: AGLettericaCondensed, sans-serif
+    p
+        margin-bottom: 20px
+        color: #000000
+        font-size: 17px
+        line-height: 24px
+        strong
+            span
+                color: $color-normal-green
+                padding-right: 5px
+        a
+            color: $color-normal-green
+        &:last-child
+            margin-bottom: 40px
+    &__text
+        max-width: 630px
+.about-league__title
+    font-size: 58px
+    line-height: 58px
+.p__list
+    padding-left: 30px
+    line-height: 1.6em
+.about-leadue__svg
+    width: 107px
+    height: 107px
+    margin: 0 auto
+
+.white
+    background-color: $color-white
+.container-documents
+    background-color: $color-white
+.documents
+    padding: 90px 0 120px 0
+
+.documents__title
+    margin-bottom: 60px
+.documents__item__title
+    color: $color-main-green
+.documents__item__bottom
+    display: flex
+    flex-direction: row
+    align-items: center
+    svg
+        margin-right: 20px
+    p
+        margin-bottom: 0
+        color: $color-main-green
+.documents__item__link
+    width: 305px
+    margin-right: 20px
+.documents__item
+    padding: 30px 60px 30px 30px
+    background-color: #FFFFFF
+    height: 380px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    position: relative
+    margin-bottom: 20px
+    width: 305px
+    &::after
+        content: ""
+        position: absolute
+        right: 0px
+        top: 0px
+        border-width: 30px
+        border-style: solid
+        border-color: rgb(245, 245, 245) rgb(245, 245, 245) transparent transparent
+        border-image: initial
+    &:hover
+        h2
+            color: $color-normal-green
+        
+.vertical-line
+    position: absolute
+    transition: all 0.3s ease 0s
+    width: 1px
+    height: 60px
+    top: 0%
+    right: 60px
+    background-color: $color-normal-green
+    box-shadow: none   
+.horizontal-line
+    position: absolute
+    transition: all 0.3s ease 0s
+    height: 1px
+    width: 60px
+    top: 60px
+    right: 0px
+    background-color: $color-normal-green
+    box-shadow: none
+.diagonal-line
+    position: absolute
+    background-color: rgb(255, 255, 255)
+    transition: all 0.3s ease 0s
+    height: 1px
+    width: 84.8528px
+    top: 60px
+    right: 0px
+    transform: rotate(45deg)
+    transform-origin: right center
+    box-shadow: none
+.line-1
+    position: absolute
+    background-color: rgb(255, 255, 255)
+    transition: all 0.3s ease 0s
+    height: 1px
+    width: calc(100% - 60px)
+    left: 0px
+    top: 0px
+.line-2
+    position: absolute
+    background-color: rgb(255, 255, 255)
+    transition: all 0.3s ease 0s
+    height: calc(100% - 60px)
+    width: 1px
+    bottom: 0px
+    right: 0px
+    box-shadow: rgb(0 0 0 / 10%) 5px 0px 4px
+.line-3
+    position: absolute
+    background-color: rgb(255, 255, 255)
+    transition: all 0.3s ease 0s
+    width: 100%
+    height: 1px
+    left: 0px
+    bottom: 0px
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 4px
+.line-4
+    position: absolute
+    background-color: rgb(255, 255, 255)
+    transition: all 0.3s ease 0s
+    width: 1px
+    height: 100%
+    left: 0px
+    top: 0px
+    box-shadow: rgb(0 0 0 / 10%) -5px 0px 4px
+
+.events
+    padding: 90px 0 0 0
+.events__item__link
+    &:hover
+        color: $color-white
+.events__item
+    display: flex
+    height: 380px
+    position: relative
+    margin-bottom: 20px
+    &__img
+        width: 100%
+        overflow: hidden
+.events__item__overlay
+    position: absolute
+    padding: 30px 30px 40px 30px
+    display: flex
+    justify-content: space-between
+    width: 100%
+    height: 100%
+.events__item__left-wrapper
+    display: flex
+    flex-direction: column
+    max-width: 570px
+    position: relative
+.events__item__right-wrapper
+    position: relative
+.card-title
+    font-size: 40px
+    line-height: 40px
+    font-family: AGLettericaCondensed, sans-serif
+    display: block
+    height: 100%
+.card-text
+    display: block
+.events__item__right-wrapper__date
+    text-align: right
+    font-family: AGLettericaCondensed, sans-serif
+    margin-bottom: 20px
+    &__h3
+        font-size: 40px
+        line-height: 40px
+        margin-bottom: 5px
+    &__h4
+        font-size: 40px
+        line-height: 40px
+        margin-bottom: 0
+.events__item__right-wrapper__time
+    text-align: right
+    font-family: AGLettericaCondensed, sans-serif
+    &__h3
+        font-size: 40px
+        line-height: 40px
+        margin-bottom: 5px
+    &__h4
+        font-size: 40px
+        line-height: 40px
+        margin-bottom: 0
+.contacts__title
+    padding: 60px 0 0 0
+    border-top: 1px solid $color-main-green
+    margin-bottom: 20px
+.contacts__box
+    display: flex
+    flex-direction: column
+    margin-bottom: 60px
+    &:last-child
+        margin-bottom: 0
+.contacts__box__string
+    display: flex
+    flex-direction: row
+.contacts__name
+    width: 108px
+    display: flex
+    align-items: center
+    margin-bottom: 5px
+.contacts__name__title
+    color: $color-normal-green
+    font-size: 17px
+    line-height: 32px
+    margin: 0
+    font-family: AGLettericaCondensed, sans-serif
+    text-transform: uppercase
+.contacts__link-box
+    display: flex
+    align-items: center
+    margin-bottom: 5px
+    flex-direction: row
+.contacts__link
+    color: $color-main-green
+    font-size: 17px
+    line-height: 32px
+    font-family: Helvetica
+    &:hover
+        color: $color-normal-green
+.input
+    max-width: 630px
+    margin: 0 auto
+    padding: 90px 0 70px 0
+.input__info
+    color: $color-main-green
+    margin-bottom: 60px
+.input__title
+    margin-bottom: 20px
+.input__h3
+    margin-bottom: 10px
+.input__container
+    border: none
+    width: 100%
+    background-color: #FFFFFF
+    padding: 18px 20px
+    margin-bottom: 20px
+.input__text
+    border: none
+    color: #111111
+    &:active
+        outline: none
+    &:focus
+        outline: none
+        color: #111111
+    &::placeholder
+        font-family: Helvetica
+        font-size: 17px
+        line-height: 24px
+        color: rgba(17, 17, 17, 0.3)
+.svg-wrapper
+    margin-bottom: 60px
+.input__svg
+    margin-right: 20px
+    width: 60px
+    height: 60px
+    cursor: pointer
+    &:hover
+        color: $color-normal-green
+.input__button-wrapper
+    width: 100%
+    margin: 0 auto
+    padding: 0 0 20px
+.input__button
+    cursor: pointer
+    font-family: AGLettericaCondensed, sans-serif
+    font-style: normal
+    font-size: 18px
+    text-align: center
+    padding: 16px 0
+    color: rgb(255, 255, 255)
+    background-color: #D0D0D0
+    outline: none
+    border: none
+    height: auto
+    text-transform: uppercase
+    width: 100%
+    display: block
+    &:hover
+        color: rgb(255, 255, 255)
+.input__button__active
+    background-color: $color-normal-green
+    &:hover
+        color: rgb(255, 255, 255)
+        background-color: $color-main-green
+.input__h-wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+.input__h4
+    color: #DE0000
+    font-family: "Helvetica", sans-serif
+    font-size: 12px
+    line-height: 24px
+    display: none
+.input__h4__active
+    display: block
+.input__forgot-password
+    color: $color-normal-green
+    font-family: "Helvetica", sans-serif
+    font-size: 12px
+    line-height: 24px
+    display: none
+    &:hover
+        color: $color-main-green
+.input__forgot-password__active
+    display: inline
+.forgot-password__container
+    margin-bottom: 60px
+.input__info__email
+    color: $color-normal-green
+    &:hover
+        color: $color-normal-green
+.registration-password
+    display: flex
+    flex-direction: row
+    margin-bottom: 40px
+.registration-password-1
+    margin-right: 20px
+    width: 100%
+.registration-password-2
+    width: 100%
+.successfully-container
+    height: 540px
+    display: flex
+    align-items: center
+.personal-account__name-brand
+    color: #111111
+    font-family: Helvetica, sans-serif
+    font-size: 17px
+    line-height: 24px
+    margin-bottom: 30px
+.personal-account__email
+    margin-bottom: 60px
+.personal-account-image
+    width: 330px
+    height: 330px
+    background-color: #D7F3BE
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    &__row
+        display: flex
+        flex-direction: row
+        svg
+            margin-right: 8px
+.personal-account-image__text
+    font-family: "Helvetica", sans-serif
+    font-size: 17px
+    line-height: 24px
+    color: $color-main-green
+    &:hover
+        color: $color-white
+        personal-account-image
+            background-color: $color-main-green
+.personal-account-wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding: 0 0 40px
+    border-bottom: 1px solid $color-main-green
+    margin-bottom: 60px
+    &:last-child
+        border-bottom: none
+        padding: 0
+        margin-bottom: 0
+.personal-account-image__info
+    position: relative
+    &:hover
+        cursor: pointer
+.personal-account-wrapper__btn
+    width: 50%
+.personal-account-image__info-tooltip
+    position: absolute
+    right: 10px
+    top: 10px
+.custom-tooltip
+    --bs-tooltip-bg: var($color-normal-green)
+    width: 143px
+    height: 100px
+    display: flex
+    align-items: center
+    $tooltip-font-size: 14px
+.lg-block
+    display: flex
+.lg-none
+    display: none
+.s-block
+    display: none
+.container-404__right-wrapper
+    width: 100%
+    max-width: 415px
+.container-404
+    display: flex
+    justify-content: space-between
+    background-color: $color-main-green
+    padding: 30px 20px 0 20px
+    align-items: center
+.container-404__left-wrapper
+    display: flex
+    flex-direction: column
+.color-white
+    color: $color-white
+    margin-bottom: 0
+.text-404
+    font-family: AGLettericaCondensed, sans-serif
+    font-size: 404px
+    line-height: 404px
+    color: $color-normal-green
+    margin: 0
+.partners-card
+    padding: 30px
+    display: flex
+    flex-direction: row
+    background-color: #FFFFFF
+    align-items: center
+.partners-card__img
+    display: flex
+    align-items: center
+    margin-right: 65px
+    height: 240px
+    width: 240px
+    img
+        margin: auto
+.partners-card__text__a
+    font-family: "Helvetica", sans-serif
+    font-size: 16px
+    line-height: 18px
+    color: $color-normal-green
+    &:hover
+        color: $color-main-green
+.card-wrapper
+    margin-bottom: 90px
+    &:last-child
+        margin-bottom: 0
+
+
+
+
+
+
+@media (max-width: 1400px)
+    .container-xl
+        max-width: 1400px
+
+@media (max-width: 1300px)
+    .nav-link
+        margin-right: 20px
+        white-space: nowrap
+    .navbar__item
+        margin-right: 20px
+    .last
+        margin-right: 0
+    .container-xl
+        max-width: 1300px
+    .documents__box
+        display: flex
+        justify-content: center
+
+@media (max-width: 1199px)
+    .nav-link
+        margin-right: 20px
+        white-space: nowrap
+    .navbar__item
+        margin-right: 20px
+    .last
+        margin-right: 0
+    .second-section
+        &__card
+            &__img
+                max-height: 380px
+    .about-league
+        max-width: 1065px
+
+
+@media (max-width: 1140px)
+    .container-xl
+        padding: 0
+    .nav-link
+        margin-right: 20px
+        white-space: nowrap
+    .navbar__item
+        margin-right: 10px
+    .last
+        margin-right: 0
+    .main-section__container
+        padding: 0 20px
+        &__img
+            width: 100%
+            height: 420px
+            img
+                width: 100%
+                height: 100%
+                display: block
+    .main-section__wrapper
+        position: relative
+        left: 0
+        top: 0
+        z-index: 5
+        margin: -80px auto 0
+        transform: none
+
+    .second-section
+        &__card
+            &__img
+                max-height: 380px
+    .about-league
+        max-width: 985px
+    .partners-card__img
+        margin-right: 0
+
+
+@media (max-width: 991px)
+    .container
+        padding: 0 20px
+    .container-xl
+        max-width: 991px
+        padding: 0 40px
+    .section-card-1__wrapper
+        &__title
+            font-size: 28px
+            line-height: 32px 
+        &__p
+            font-size: 16px  
+            line-height: 18px 
+    .section-card-2__wrapper
+        &__title
+            font-size: 28px  
+            line-height: 32px 
+        &__p
+            font-size: 16px 
+            line-height: 18px  
+    .section-card-3
+        &__title
+            font-size: 40px
+            line-height: 40px 
+    .footer__bottom__wrapper
+        display: flex
+        flex-direction: column
+        padding: 23px 20px
+    .footer__bottom__item
+        font-size: 16px
+        &:first-child
+            margin-bottom: 6px
+    .second-section
+        &__card
+            &__img
+                max-height: 380px
+    .mailing
+        min-width: 302px
+    .container__about-league__wrapper
+        padding: 40px 0 60px 0
+    .about-league
+        max-width: 738px
+        padding: 50px 49px 60px 49px
+
+    .events__item__overlay
+        padding: 30px 30px 30px 30px
+    .events__item__left-wrapper
+        max-width: 450px
+    .card-title
+        font-size: 28px
+        line-height: 32px
+    .events__item__right-wrapper__date
+        &__h3
+            font-size: 28px
+            line-height: 32px
+            margin-bottom: 0
+        &__h4
+            font-size: 28px
+            line-height: 32px
+    .events__item__right-wrapper__time
+        &__h3
+            font-size: 28px
+            line-height: 32px
+            margin-bottom: 0
+        &__h4
+            font-size: 28px
+            line-height: 32px
+    .events
+        padding: 59px 0 0 0
+    .second-section__btn-wrapper
+        max-width: 991px
+    .second-section__btn
+        max-width: 991px
+    .documents
+        padding: 59px 0 90px 0
+    .personal-account-image
+        width: 228px
+        height: 228px
+    .lg-block
+        display: none
+    .lg-none
+        display: flex
+    .personal-account-wrapper-left__wrapper-inside
+        display: flex
+        justify-content: space-between
+    .personal-account-image
+        margin-bottom: 40px
+    .personal-account-wrapper__btn
+        width: 100%
+    .container-404
+        justify-content: center
+        flex-direction: column
+    .text-404
+        margin: 0 0 60px
+    .partners-card
+        display: flex
+        flex-direction: column
+    .partners-card__text
+        &__a
+            display: flex
+            justify-content: center
+    .p-c-title
+        display: flex
+        justify-content: center
+
+@media (max-width: 767px)
+    .container-sm
+        padding: 0
+    .container-xl
+        max-width: 767px
+        padding: 0 30px
+    .container-sm
+        min-width: 375px
+    .container-main
+        min-width: 375px
+        padding: 15px 0
+    .container-second
+        padding: 30px 15px 0 15px
+    .main-section__container__img
+        height: 200px
+        min-width: 345px
+    .main-section__wrapper
+        display: none
+    .main-section__container
+        padding: 0px 15px 0 15px
+    .title
+        font-size: 28px
+    .main-section__wrapper__list__item
+        min-width: 110px
+    .main-section__wrapper__title
+        margin-bottom: 10px
+    .section-card-1__wrapper
+        &__title
+            font-size: 28px
+            line-height: 32px 
+        &__p
+            font-size: 16px  
+            line-height: 18px 
+    .section-card-2__wrapper
+        &__title
+            font-size: 28px  
+            line-height: 32px 
+        &__p
+            font-size: 16px 
+            line-height: 18px  
+    .section-card-3
+        &__title
+            font-size: 28px
+            line-height: 32px 
+    .second-section
+        &__card
+            &__img
+                max-height: 380px
+    .second-section__btn-wrapper
+        padding: 0 0 60px 0
+    .footer__container
+        margin-bottom: 212px
+        width: 100%
+        padding: 0 15px
+    .footer__container__header
+        padding: 30px 0
+        display: flex
+        flex-direction: column
+    .footer__container__header__img
+        margin: 0 auto 30px 0
+    .footer__container__info
+        display: flex
+        flex-direction: column
+        &__left-wrapper
+            margin-bottom: 40px
+    .footer__container__info__title-left
+        display: flex
+    .footer__container__info__left-wrapper__column
+        margin-right: 50px
+        &:last-child
+            margin-right: 0
+    .footer__bottom__wrapper
+        display: flex
+        flex-direction: column
+        padding: 20px
+    .footer__bottom__item
+        font-size: 12px
+        &:first-child
+            margin-bottom: 6px
+    .mailing
+        min-width: 285px
+    .mailing__container
+        margin: 0 auto 0 0
+    .menu-full
+        list-style: none
+        top: 85px
+        padding: 0 15px 28px 15px
+        &__item
+            font-size: 26px
+            line-height: 28px
+            padding: 20px 0 0 0
+            width: 100%
+            border-bottom: none
+            &:last-child
+                margin-bottom: 40px
+    .container__about-league__wrapper
+        width: 100%
+        padding: 0
+    .about-league
+        width: 100%
+        padding: 40px 35px 80px 35px
+    .about-league__title
+        margin-bottom: 30px
+        font-size: 32px
+        line-height: 32px
+    .about-league__text
+        p
+            font-size: 15px
+            line-height: 20px
+    .documents__item
+        width: 305px
+    .documents
+        padding: 40px 0 90px 0
+    .documents__title
+        margin-bottom: 40px
+    .card-text
+        display: none
+    .events__item__overlay
+        position: absolute
+        display: flex
+        flex-direction: column
+        align-content: space-between
+    .events__item__left-wrapper
+        max-width: 760px
+    .events__item__right-wrapper
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+    .events__item__right-wrapper__date
+        &__h3
+            font-size: 22px
+            line-height: 22px
+            margin-bottom: 0
+        &__h4
+            font-size: 22px
+            line-height: 22px
+    .events__item__right-wrapper__time
+        &__h3
+            font-size: 22px
+            line-height: 22px
+            margin-bottom: 0
+        &__h4
+            font-size: 22px
+            line-height: 22px
+    .events__item__right-wrapper__date
+        text-align: left
+    .events__item__right-wrapper__time
+        text-align: left
+    .events__btn
+        padding-top: 20px
+    .contacts__name__title
+        line-height: 22px
+    .contacts__link
+        font-size: 15px
+        line-height: 20px
+    .contacts__title
+        padding: 40px 0 0 0
+    .contacts__box
+        margin-bottom: 40px
+    .registration-password
+        display: flex
+        flex-direction: column
+    .personal-account-wrapper-left__wrapper-inside
+        display: flex
+        flex-direction: column
+        justify-content: start
+    .personal-account-image
+        width: 100%
+        height: 345px
+    .s-block
+        display: block
+    .lg-inline
+        display: none
+    .container-404__left-wrapper
+        flex-direction: column
+    .text-404
+        font-size: 160px
+        line-height: 160px
+    .text-404-box
+        display: flex
+        justify-content: center
+    .container-404__right-wrapper
+        max-width: 135px
+    .partners-card
+        margin-bottom: 20px
+    .partners-card__img
+        display: flex
+        justify-content: center
